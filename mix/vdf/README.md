@@ -1,0 +1,1 @@
+More information at http://developer.valvesoftware.com/wiki/Notepadpp_VDF_languages

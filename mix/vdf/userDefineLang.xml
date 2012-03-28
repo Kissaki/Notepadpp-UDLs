@@ -1,0 +1,274 @@
+<NotepadPlus>
+    <UserLang name="VDF" ext="vdf vmf">
+        <Settings>
+            <Global caseIgnored="yes" />
+            <TreatAsSymbol comment="no" commentLine="yes" />
+            <Prefix words1="no" words2="no" words3="no" words4="no" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Delimiters">&quot;00&quot;00</Keywords>
+            <Keywords name="Folder+">{</Keywords>
+            <Keywords name="Folder-">}</Keywords>
+            <Keywords name="Operators">&quot;</Keywords>
+            <Keywords name="Comment">1 1 2 2 0//</Keywords>
+            <Keywords name="Words1"></Keywords>
+            <Keywords name="Words2"></Keywords>
+            <Keywords name="Words3"></Keywords>
+            <Keywords name="Words4"></Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" styleID="11" fgColor="000000" bgColor="FFFFFF" fontName="Consolas" fontStyle="1" />
+            <WordsStyle name="FOLDEROPEN" styleID="12" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="FOLDERCLOSE" styleID="13" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="KEYWORD1" styleID="5" fgColor="008000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="KEYWORD2" styleID="6" fgColor="000080" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="KEYWORD3" styleID="7" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="KEYWORD4" styleID="8" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="004040" bgColor="FFFFFF" fontName="" fontStyle="2" />
+            <WordsStyle name="NUMBER" styleID="4" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="OPERATOR" styleID="10" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="DELIMINER1" styleID="14" fgColor="800000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER2" styleID="15" fgColor="800000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER3" styleID="16" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+        </Styles>
+    </UserLang>
+    <UserLang name="VDF-Response" ext="talker">
+        <Settings>
+            <Global caseIgnored="yes" />
+            <TreatAsSymbol comment="no" commentLine="yes" />
+            <Prefix words1="no" words2="no" words3="no" words4="no" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Delimiters">&quot;00&quot;00</Keywords>
+            <Keywords name="Folder+">{</Keywords>
+            <Keywords name="Folder-">}</Keywords>
+            <Keywords name="Operators">&quot;</Keywords>
+            <Keywords name="Comment">1 1 2 2 0//</Keywords>
+            <Keywords name="Words1">criteria response norepeat matchonce rule criterion #include sequential permitrepeats</Keywords>
+            <Keywords name="Words2">scene speak sentence print classname concept seeplayer seenby player timesincecombat health npcstate combat_length playerweapon weapon oneshot num_enemies map name healthfrac skill.cfg timesinceseenplayer distancetoenemy activity enemy speed distancetoplayer seenbyplayer readiness playerhealth playerhealthfrac playeractivity playerspeed</Keywords>
+            <Keywords name="Words3">delay noscene speakonce displayfirst displaylast required weight respeakdelay odds defaultdelay matchonce</Keywords>
+            <Keywords name="Words4">TLK_LEAD_START TLK_LEAD_ARRIVAL TLK_LEAD_SUCCESS lead_fail TLK_LEAD_COMINGBACK TLK_LEAD_CATCHUP TLK_LEAD_RETRIEVE TLK_LEAD_ATTRACTPLAYER TLK_LEAD_WAITOVER TLK_LEAD_MISSING_WEAPON TLK_ANSWER TLK_QUESTION TLK_IDLE TLK_STARE TLK_USE TLK_STARTFOLLOW TLK_STOPFOLLOW TLK_JOINPLAYER TLK_STOP TLK_NOSHOOT TLK_HELLO TLK_PHELLO TLK_PIDLE TLK_PQUESTION TLK_PLHURT1 TLK_PLHURT2 TLK_PLHURT3 TLK_PLPUSH TLK_PLRELOAD TLK_SMELL TLK_SHOT TLK_WOUND TLK_MORTAL TLK_DANGER TLK_SEE_COMBINE TLK_ENEMY_DEAD TLK_SELECTED TLK_COMMANDED TLK_COMMAND_FAILED TLK_BETRAYED TLK_ALLY_KILLED TLK_ATTACKING TLK_HEAL TLK_GIVEAMMO TLK_DEATH TLK_HELP_ME TLK_PLYR_PHYSATK TLK_ANSWER_VORT TLK_ANSWER_CIT TLK_QUESTION_VORT TLK_QUESTION_CIT TLK_NEWWEAPON TLK_PLDEAD TLK_HIDEANDRELOAD TLK_STARTCOMBAT TLK_WATCHOUT TLK_RESUME TLK_TGSTAYPUT TLK_TGFIND TLK_TGSEEK TLK_TGLOSTYOU TLK_TGCATCHUP TLK_TGENDTOUR</Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" styleID="11" fgColor="000000" bgColor="FFFFFF" fontName="Consolas" fontStyle="1" />
+            <WordsStyle name="FOLDEROPEN" styleID="12" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="FOLDERCLOSE" styleID="13" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="KEYWORD1" styleID="5" fgColor="008000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="KEYWORD2" styleID="6" fgColor="000080" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="KEYWORD3" styleID="7" fgColor="800000" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="KEYWORD4" styleID="8" fgColor="808080" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="004040" bgColor="FFFFFF" fontName="" fontStyle="2" />
+            <WordsStyle name="NUMBER" styleID="4" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="OPERATOR" styleID="10" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="DELIMINER1" styleID="14" fgColor="800000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER2" styleID="15" fgColor="800000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER3" styleID="16" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+        </Styles>
+    </UserLang>
+    <UserLang name="VDF-Soundscript" ext="soundscript">
+        <Settings>
+            <Global caseIgnored="yes" />
+            <TreatAsSymbol comment="no" commentLine="yes" />
+            <Prefix words1="no" words2="no" words3="no" words4="no" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Delimiters">&quot;00&quot;00</Keywords>
+            <Keywords name="Folder+">{</Keywords>
+            <Keywords name="Folder-">}</Keywords>
+            <Keywords name="Operators">&quot;</Keywords>
+            <Keywords name="Comment">1 1 2 2 0//</Keywords>
+            <Keywords name="Words1">channel volume pitch soundlevel wave rndwave</Keywords>
+            <Keywords name="Words2">VOL_NORM PITCH_NORM CHAN_AUTO CHAN_VOICE CHAN_STATIC CHAN_WEAPON CHAN_ITEM CHAN_BODY CHAN_STREAM CHAN_USER_BASE+</Keywords>
+            <Keywords name="Words3">SNDLVL_NONE SNDLVL_25dB SNDLVL_30dB SNDLVL_35dB SNDLVL_40dB SNDLVL_45dB SNDLVL_50dB SNDLVL_55dB SNDLVL_IDLE SNDLVL_TALKING SNDLVL_60dB SNDLVL_65dB SNDLVL_STATIC SNDLVL_70dB SNDLVL_NORM SNDLVL_75dB SNDLVL_80dB SNDLVL_85dB SNDLVL_90Db SNDLVL_100dB SNDLVL_105dB SNDLVL_120dB SNDLVL_130dB SNDLVL_GUNFIRE SNDLVL_140Db SNDLVL_150Db</Keywords>
+            <Keywords name="Words4"></Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" styleID="11" fgColor="000000" bgColor="FFFFFF" fontName="Consolas" fontStyle="1" />
+            <WordsStyle name="FOLDEROPEN" styleID="12" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="FOLDERCLOSE" styleID="13" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="KEYWORD1" styleID="5" fgColor="008000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="KEYWORD2" styleID="6" fgColor="000080" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="KEYWORD3" styleID="7" fgColor="000080" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="KEYWORD4" styleID="8" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="004040" bgColor="FFFFFF" fontName="" fontStyle="2" />
+            <WordsStyle name="NUMBER" styleID="4" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="OPERATOR" styleID="10" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="DELIMINER1" styleID="14" fgColor="800000" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="DELIMINER2" styleID="15" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER3" styleID="16" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+        </Styles>
+    </UserLang>
+    <UserLang name="VDF-Material" ext="vmt">
+        <Settings>
+            <Global caseIgnored="yes" />
+            <TreatAsSymbol comment="no" commentLine="yes" />
+            <Prefix words1="no" words2="no" words3="no" words4="no" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Delimiters">000000</Keywords>
+            <Keywords name="Folder+">{</Keywords>
+            <Keywords name="Folder-">}</Keywords>
+            <Keywords name="Operators">&quot;</Keywords>
+            <Keywords name="Comment">1 1 2 2 0//</Keywords>
+            <Keywords name="Words1">alienscale basetimeslightmaptimesdetail basetimeslightmapwet basetimesmod2xenvmap bloom blurfilterx blurfiltery cable camo cloud debugbumpedlightmap debugbumpedvertexlit debugfbtexture debuglightingonly debuglightmap debugluxels debugmodifyvertex debugnormalmap debugunlit debugvertexlit decalBaseTimesLightmapAlphaBlendSelfillum decalmodulate downsample eyeball eyes fillrate gooinglass internalframesync jellyfish jojirium lightmappedgeneric lightmappedtwotexture modeladditivetransEnvMapwithMaskedTexture modulate overlay_fit particlesphere predator reflecttexture refract shadow shadowbuild shadowmodel showdestalpha skyfog sprite teeth translucentlightmap unlitgeneric unlittwotexture vertexlitgeneric vertexnormals volumetricfog water watersurfacebottom wireframe worldtwotextureblend worldvertexalpha worldvertextransition yuv VertexLitGeneric_HDR_DX9 LightmappedGeneric_HDR_DX9 LightmappedGeneric_DX9 LightmappedGeneric_DX8 VertexLitGeneric_DX9 VertexLitGeneric_dx8 VertexLitGeneric_dx7 VertexLitGeneric_dx6 LightmappedGeneric_dx6 LightmappedGeneric_NoBump_DX8 Proxies AnimatedTexture Water_HDR_DX90 Water_DX90 Water_DX81 Water_DX80 Water_DX60 TextureScroll WaterLOD ShatteredGlass ShatteredGlass_DX7 BreakableSurface UnlitGeneric_dx9 UnlitGeneric_dx8 UnlitGeneric_dx6 Refract_dx90 Refract_dx80 Refract_dx60 ShatteredGlass_dx8 WorldTwoTextureBlend_dx8 WorldTwoTextureBlend_dx6 WorldVertexTransition_dx9 WorldVertexTransition_dx8 WorldVertexTransition_dx6 WorldVertexAlpha_dx8 Eyes_dx6 Modulate_dx6 MonitorScreen Predator_dx80 Predator_dx60 Sprite_dx8 Sprite_dx6 UnlitTwoTexture_dx6 WriteZ_dx6 WindowImposter_dx80 WindowImposter_dx60 Add Multiply Subtract Divide Equals Abs Frac Exponential Clamp LessOrEqual Sine LinearRamp UniformNoise GaussianNoise MatrixRotate PlayerProximity PlayerView PlayerSpeed PlayerPosition EntitySpeed TextureTransform Empty ToggleTexture RandomEntity CurrentTime PlayerHealth PlayerDamageTime MaterialModify ConveyorScroll LampBeam LampHalo</Keywords>
+            <Keywords name="Words2">$basetexture $surfaceprop $model $bumpmap $phong $phongexponent $halflambert $phongexponenttexture $phongboost $phongfresnelranges $selfillum $translucent $vertexcolor $vertexalpha $decal $decalscale $color $writeZ $normalmapalphaenvmapmask $additive $no_fullbright $ignorez $nolod $parallaxmap $parallaxmapscale $basealphaenvmapmask $nodiffusebumplighting $envmap $envmaptint $envmapcontrast $envmapsaturation $basetexturetransform $detail $detailscale $fresnelreflection $nodecal $alpha $envmapmask $nocull $alphatest animatedtexturevar animatedtextureframenumvar animatedtextureframerate $surfaceprop2 $basetexture2 $bumpmap2 $abovewater $refracttexture $refracttint $reflecttint $reflectamount $forceexpensive $bottommaterial $bumpframe $fogenable $fogcolor $fogstart $fogend texturescrollvar texturescrollrate texturescrollangle $basetexturetransform2 $envmapsphere $lightmaptint $reflectivity $reflecttexture $refractamount $normalmap $fallbackmaterial $forcecheap $scale $envmapmode $envmapmaskscale $bumpscale $texture2 $reflectentities $heightmap $heightscale $heightmapsample sine $frame $selfillumtint $detailblendmode $detailblendfactor $nofog $ssbump $seamless_scale $cheapwaterstartdistance $cheapwaterenddistance $selfillum_envmapmask_alpha</Keywords>
+            <Keywords name="Words3">%tooltexture %compilepassbullets %keywords %compilewater %detailtype</Keywords>
+            <Keywords name="Words4">resultVar sineperiod sinemin sinemax</Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" styleID="11" fgColor="000000" bgColor="FFFFFF" fontName="Consolas" fontStyle="0" />
+            <WordsStyle name="FOLDEROPEN" styleID="12" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="FOLDERCLOSE" styleID="13" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="KEYWORD1" styleID="5" fgColor="008000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="KEYWORD2" styleID="6" fgColor="000080" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="KEYWORD3" styleID="7" fgColor="804000" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="KEYWORD4" styleID="8" fgColor="808080" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="004040" bgColor="FFFFFF" fontName="" fontStyle="2" />
+            <WordsStyle name="NUMBER" styleID="4" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="OPERATOR" styleID="10" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="DELIMINER1" styleID="14" fgColor="800000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER2" styleID="15" fgColor="800000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER3" styleID="16" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+        </Styles>
+    </UserLang>
+    <UserLang name="VDF-Actbusy" ext="vdf">
+        <Settings>
+            <Global caseIgnored="yes" />
+            <TreatAsSymbol comment="no" commentLine="yes" />
+            <Prefix words1="no" words2="no" words3="no" words4="no" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Delimiters">000000</Keywords>
+            <Keywords name="Folder+">{</Keywords>
+            <Keywords name="Folder-">}</Keywords>
+            <Keywords name="Operators">&quot;</Keywords>
+            <Keywords name="Comment">1 1 2 2 0//</Keywords>
+            <Keywords name="Words1">busy_anim entry_anim exit_anim busy_sequence entry_sequence exit_sequence min_time max_time interrupts use_automovement busy_sound entry_sound exit_sound</Keywords>
+            <Keywords name="Words2">BA_INT_NONE BA_INT_DANGER BA_INT_PLAYER BA_INT_AMBUSH BA_INT_COMBAT</Keywords>
+            <Keywords name="Words3"></Keywords>
+            <Keywords name="Words4"></Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" styleID="11" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="FOLDEROPEN" styleID="12" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="FOLDERCLOSE" styleID="13" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="KEYWORD1" styleID="5" fgColor="008000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="KEYWORD2" styleID="6" fgColor="000080" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="KEYWORD3" styleID="7" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="KEYWORD4" styleID="8" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="004040" bgColor="FFFFFF" fontName="" fontStyle="2" />
+            <WordsStyle name="NUMBER" styleID="4" fgColor="000000" bgColor="FFFFFF" fontName="Consolas" fontStyle="1" />
+            <WordsStyle name="OPERATOR" styleID="10" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER1" styleID="14" fgColor="800000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER2" styleID="15" fgColor="800000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER3" styleID="16" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+        </Styles>
+    </UserLang>
+    <UserLang name="VDF-Soundscape" ext="soundscape">
+        <Settings>
+            <Global caseIgnored="no" />
+            <TreatAsSymbol comment="no" commentLine="yes" />
+            <Prefix words1="no" words2="no" words3="no" words4="no" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Delimiters">000000</Keywords>
+            <Keywords name="Folder+">{</Keywords>
+            <Keywords name="Folder-">}</Keywords>
+            <Keywords name="Operators">&quot;</Keywords>
+            <Keywords name="Comment">1 1/* 2*/ 0//</Keywords>
+            <Keywords name="Words1">dsp playlooping playrandom rndwave playsoundscape dsp_volume soundmixer</Keywords>
+            <Keywords name="Words2">volume wave pitch time name position attenuation ambientpositionoverride positionoverride soundlevel</Keywords>
+            <Keywords name="Words3">random SNDLVL_NONE SNDLVL_25dB SNDLVL_30dB SNDLVL_35dB SNDLVL_40dB SNDLVL_45dB SNDLVL_50dB SNDLVL_55dB SNDLVL_IDLE SNDLVL_TALKING SNDLVL_60dB SNDLVL_65dB SNDLVL_STATIC SNDLVL_70dB SNDLVL_NORM SNDLVL_75dB SNDLVL_80dB SNDLVL_85dB SNDLVL_90Db SNDLVL_100dB SNDLVL_105dB SNDLVL_120dB SNDLVL_130dB SNDLVL_GUNFIRE SNDLVL_140dB SNDLVL_150Db</Keywords>
+            <Keywords name="Words4"></Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" styleID="11" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="FOLDEROPEN" styleID="12" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="FOLDERCLOSE" styleID="13" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="KEYWORD1" styleID="5" fgColor="008000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="KEYWORD2" styleID="6" fgColor="000080" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="KEYWORD3" styleID="7" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="KEYWORD4" styleID="8" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="004040" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="004040" bgColor="FFFFFF" fontName="" fontStyle="2" />
+            <WordsStyle name="NUMBER" styleID="4" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="OPERATOR" styleID="10" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER1" styleID="14" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="DELIMINER2" styleID="15" fgColor="000080" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER3" styleID="16" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+        </Styles>
+    </UserLang>
+    <UserLang name="VDF-QC" ext="qc qci">
+        <Settings>
+            <Global caseIgnored="no" />
+            <TreatAsSymbol comment="no" commentLine="yes" />
+            <Prefix words1="no" words2="no" words3="no" words4="no" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Delimiters">&quot;00&quot;00</Keywords>
+            <Keywords name="Folder+">{</Keywords>
+            <Keywords name="Folder-">}</Keywords>
+            <Keywords name="Operators">&quot;</Keywords>
+            <Keywords name="Comment">1 1/* 2*/ 0//</Keywords>
+            <Keywords name="Words1">$modelname $cd $cdmaterials $staticprop $scale $body $model $sequence $collisionmodel $keyvalues $surfaceprop $texturegroup $include $collisiontext $autocenter $jigglebone $lod $hboxset $hbox $illumposition $lod $shadowlod $includemodel $popd $pushd $root $controller $poseparamater $attachment $hierarchy $collapsebones $alwayscollapse $definebone $animation $declaresequence $bonemerge $animblocksize $weightlist $realignbones $jointsurfaceprop $contents $jointcontents $opaque $mostlyopaque $definemacro $testmacro $proceduralbones $ikchain $poseparameter $eyeposition $collisionjoints $limitrotation $cmdlist</Keywords>
+            <Keywords name="Words2">$mass $automass $inertia $damping $rotdamping $drag $concave $masscenter $jointskip $jointmerge $rootbone $jointconstrain $jointinertia $jointdamping $jointrotdamping $jointmassbias $noselfcollisions $jointcollide $animatedfriction prop_data physgun_interactions eyeball flexfile break replacemodel removemodel replacematerial removemesh bonetreecollapse replacebone nofacial frames subtract weightlist defaultflex localvar spherenormals fixuploop alignto align alignboneto startloop fudgeloop presubtract match walkframe walkalignto walkalign rotateto noanimation derivative lineardelta splinedelta compress numframes iklock ikrule activity autoplay addlayer blendlayer delta predelta snap realtime fadein fadeout blendwidth blend node transition rtransition exitphase $skiptransition keyvalues hidden is_flexible flexcontroller loop eyelid mouth $maxconvexpieces</Keywords>
+            <Keywords name="Words3">base health dmg.bullets dmg.club dmg.explosive damage_table explosive_damage explosive_radius breakable_model breakable_count allowstatic blockLOS AIWalkable preferred_carryangles onworldimpact onfirstimpact onlaunch onbreak physicsmode grate monster solid notsolid ladder range height floor pad contact radius usesource usesequence skinfamilies</Keywords>
+            <Keywords name="Words4">model ragdoll offset health fadetime fademindist fademaxdist debris burst placementbone placementattachment lefteye righteye upper_right upper_left lower_right lower_left lowerer neutral raiser split yaw_stiffness yaw_damping pitch_stiffness pitch_damping tip_mass length angle_constraint flex frame eyelid brow nose mouth phoneme head eyes body chest gesture fps cmdlist</Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" styleID="11" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="FOLDEROPEN" styleID="12" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="FOLDERCLOSE" styleID="13" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="KEYWORD1" styleID="5" fgColor="0000A0" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="KEYWORD2" styleID="6" fgColor="008000" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="KEYWORD3" styleID="7" fgColor="800040" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="KEYWORD4" styleID="8" fgColor="808080" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="004040" bgColor="FFFFFF" fontName="" fontStyle="2" />
+            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="004040" bgColor="FFFFFF" fontName="" fontStyle="2" />
+            <WordsStyle name="NUMBER" styleID="4" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="OPERATOR" styleID="10" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER1" styleID="14" fgColor="804000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER2" styleID="15" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER3" styleID="16" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+        </Styles>
+    </UserLang>
+    <UserLang name="FGD" ext="fgd">
+        <Settings>
+            <Global caseIgnored="yes" />
+            <TreatAsSymbol comment="no" commentLine="yes" />
+            <Prefix words1="yes" words2="no" words3="no" words4="no" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Delimiters">&quot;00&quot;00</Keywords>
+            <Keywords name="Folder+">[</Keywords>
+            <Keywords name="Folder-">]</Keywords>
+            <Keywords name="Operators"></Keywords>
+            <Keywords name="Comment">1 2 0//</Keywords>
+            <Keywords name="Words1">@mapsize @BaseClass @include @PointClass @SolidClass</Keywords>
+            <Keywords name="Words2">input output</Keywords>
+            <Keywords name="Words3"></Keywords>
+            <Keywords name="Words4"></Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" styleID="11" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="FOLDEROPEN" styleID="12" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="FOLDERCLOSE" styleID="13" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="KEYWORD1" styleID="5" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="KEYWORD2" styleID="6" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="KEYWORD3" styleID="7" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="KEYWORD4" styleID="8" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="008000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="NUMBER" styleID="4" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="4" />
+            <WordsStyle name="OPERATOR" styleID="10" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER1" styleID="14" fgColor="804000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER2" styleID="15" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER3" styleID="16" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>
