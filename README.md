@@ -12,7 +12,7 @@ This repository holds such UDL files.
 
 * Open Notepad++
 * View -> User Defined Languages
-* Import
+* Import the userDefineLang XML file
 * Restart Npp
 
 *(Will be added to %APPDATA%\Notepad++\userDefineLang.xml)*
@@ -26,7 +26,7 @@ Copy xml file into
 
 ## Specifics
 
-Most files at the moment are re-hosts, so you and me can find them more easily. Some have been changed or were newly created though, as described in the following.
+Most files at the moment are re-hosts (folder *mix*), so you and me can find them more easily. Some have been changed or were newly created though, as described in the following.
 
 ### Go
 

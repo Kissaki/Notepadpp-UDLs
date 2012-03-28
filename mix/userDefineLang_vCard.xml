@@ -1,0 +1,197 @@
+<NotepadPlus>
+    <UserLang name="vCard" ext="vcf">
+        <Settings>
+            <Global caseIgnored="yes"/>
+            <TreatAsSymbol comment="no" commentLine="no"/>
+            <Prefix words1="no" words2="no" words3="no" words4="no"/>
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Delimiters">"&lt;0"&gt;0</Keywords>
+            <Keywords name="Folder+">BEGIN</Keywords>
+            <Keywords name="Folder-">END</Keywords>
+            <Keywords name="Operators">, : ; \ =</Keywords>
+            <Keywords name="Comment"/>
+            <Keywords name="Words1">ADR
+AGENT
+BDAY
+CALADRURI
+CALURI
+CAPURI
+CATEGORIES
+CLASS
+EMAIL
+FBURL
+FN
+GEO
+KEY
+LABEL
+LOGO
+MAILER
+N
+NICKNAME
+NOTE
+ORG
+PHOTO
+PRODID
+REV
+ROLE
+SORT-STRING
+SOUND
+TEL
+TITLE
+TZ
+UID
+URL
+VERSION
+X-AIM
+X-ANNIVERSARY
+X-GTALK
+X-ICQ
+X-JABBER
+X-MS-CARDPICTURE
+X-MS-IMADDRESS
+X-MSN
+X-MS-OL-DEFAULT-POSTAL-ADDRESS
+X-MS-OL-DESIGN
+X-MS-TEL
+X-PHONETIC-LAST-NAME
+X-QQ
+X-SKYPE
+X-WAB-GENDER
+X-YAHOO</Keywords>
+            <Keywords name="Words2">7BIT
+8BIT
+ALTID
+CALSCALE
+CHARSET
+CID
+COMPONENT
+CONTENT-ID
+CONTEXT
+ENCODING
+GEO
+INLINE
+LABEL
+LANGUAGE
+NAME
+PARAM
+PID
+PREF
+PROFILE
+SORT-AS
+SOURCE
+TEXT
+TYPE
+URI
+VALUE
+XFN</Keywords>
+            <Keywords name="Words3">AIFF
+ANSI
+AVI
+BASE64
+BMP
+CGM
+CS
+DIB
+EN
+EN-GB
+EN-US
+GIF
+JPEG
+MET
+MPEG
+MPEG2
+PCM
+PDF
+PGP
+PICT
+PMB
+PS
+QTIME
+QUOTED-PRINTABLE
+RU
+TIFF
+UTF-8
+VCARD
+WAVE
+WINDOWS-1251
+WINDOWS-1252
+WMF
+X509</Keywords>
+            <Keywords name="Words4">ACQUAINTANCE
+AOL
+APPLELINK
+ATTMAIL
+BBS
+CAR
+CELL
+CHILD
+CIS
+COLLEAGUE
+COMPANY
+CONTACT
+CO-RESIDENT
+CO-WORKER
+CRUSH
+DATE
+DOM
+EWORLD
+FAX
+FRIEND
+GREGORIAN
+HOME
+IANA-TOKEN
+IBMMAIL
+INTERNET
+INTL
+ISDN
+KIN
+MCIMAIL
+ME
+MET
+MODEM
+MSG
+MUSE
+NEIGHBOR
+NON-ASCII
+PAGER
+PARCEL
+PARENT
+PCS
+POC
+POSTAL
+POWERSHARE
+PREF
+PRODIGY
+SIBLING
+SIP
+SPOUSE
+SWEETHEART
+SWIS
+TLX
+VIDEO
+VOICE
+VOIP
+WORK
+WSP
+X400
+X-NAME</Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" styleID="11" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0"/>
+            <WordsStyle name="FOLDEROPEN" styleID="12" fgColor="D20000" bgColor="FFFFFF" fontName="" fontStyle="1"/>
+            <WordsStyle name="FOLDERCLOSE" styleID="13" fgColor="D20000" bgColor="FFFFFF" fontName="" fontStyle="1"/>
+            <WordsStyle name="KEYWORD1" styleID="5" fgColor="FF0000" bgColor="FFFFFF" fontName="" fontStyle="0"/>
+            <WordsStyle name="KEYWORD2" styleID="6" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="0"/>
+            <WordsStyle name="KEYWORD3" styleID="7" fgColor="800080" bgColor="FFFFFF" fontName="" fontStyle="0"/>
+            <WordsStyle name="KEYWORD4" styleID="8" fgColor="008000" bgColor="FFFFFF" fontName="" fontStyle="0"/>
+            <WordsStyle name="COMMENT" styleID="1" fgColor="808080" bgColor="FFFFFF" fontName="" fontStyle="0"/>
+            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0"/>
+            <WordsStyle name="NUMBER" styleID="4" fgColor="36361B" bgColor="FFFFFF" fontName="" fontStyle="0"/>
+            <WordsStyle name="OPERATOR" styleID="10" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0"/>
+            <WordsStyle name="DELIMINER1" styleID="14" fgColor="808080" bgColor="FFFFFF" fontName="" fontStyle="0"/>
+            <WordsStyle name="DELIMINER2" styleID="15" fgColor="000080" bgColor="FFFF80" fontName="" fontStyle="0"/>
+            <WordsStyle name="DELIMINER3" styleID="16" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0"/>
+        </Styles>
+    </UserLang>
+</NotepadPlus>

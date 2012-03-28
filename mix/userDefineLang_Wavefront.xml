@@ -1,0 +1,104 @@
+<NotepadPlus>
+    <UserLang name="Wavefront OBJ" ext="obj">
+        <Settings>
+            <Global caseIgnored="yes"/>
+            <TreatAsSymbol comment="no" commentLine="yes"/>
+            <Prefix words1="no" words2="no" words3="no" words4="no"/>
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Delimiters">000000</Keywords>
+            <Keywords name="Folder+"/>
+            <Keywords name="Folder-"/>
+            <Keywords name="Operators">- . /</Keywords>
+            <Keywords name="Comment">1 2 0#</Keywords>
+            <Keywords name="Words1">mtllib g o usemtl</Keywords>
+            <Keywords name="Words2">v vt vn f s</Keywords>
+            <Keywords name="Words3">amber amber_trans aqua aqua_filter
+ archwhite archwhite2 bflesh black
+ blondhair blue_pure bluegrey bluetint
+ blugrn blutan bluteal bone
+ bone1 bone2 brass brnhair
+ bronze brown brownlips brownskn
+ brzskin chappie charcoal deepgreen
+ default dkblue dkblue_pure dkbrown
+ dkdkgrey dkgreen dkgrey dkorange
+ dkpurple dkred dkteal emerald
+ fgreen flaqua flblack flblonde
+ flblue_pure flbrown fldkblue_pure fldkdkgrey
+ fldkgreen fldkgreen2 fldkgrey fldkolivegreen
+ fldkpurple fldkred flesh fleshtransparent
+ flgrey fllime flltbrown flltgrey
+ flltolivegreen flmintgreen flmustard florange
+ flpinegreen flpurple flred fltan
+ flwhite flwhite1 flyellow glass
+ glassblutint glasstransparent gold green
+ greenskn grey hair iris
+ jetflame lavendar lcdgreen lighttan
+ lighttan2 lighttan3 lighttannew lightyellow
+ lime lips ltbrown ltgrey
+ meh metal mintgrn muscle
+ navy_blue offwhite.cool offwhite.warm olivegreen
+ orange pale_green pale_pink pale_yellow
+ peach periwinkle pink pinktan
+ plasma purple red redbrick
+ redbrown redorange redwood rubber
+ ruby sand_stone sapphire shadow
+ ship2 silver skin sky_blue
+ smoked_glass tan taupe teeth
+ violet white yellow yellow_green
+ yellowbrt yelloworng
+</Keywords>
+            <Keywords name="Words4"/>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" styleID="11" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0"/>
+            <WordsStyle name="FOLDEROPEN" styleID="12" fgColor="000080" bgColor="FFFFFF" fontName="" fontStyle="1"/>
+            <WordsStyle name="FOLDERCLOSE" styleID="13" fgColor="000080" bgColor="FFFFFF" fontName="" fontStyle="1"/>
+            <WordsStyle name="KEYWORD1" styleID="5" fgColor="000080" bgColor="FFFFFF" fontName="" fontStyle="1"/>
+            <WordsStyle name="KEYWORD2" styleID="6" fgColor="FF0000" bgColor="FFFFFF" fontName="" fontStyle="1"/>
+            <WordsStyle name="KEYWORD3" styleID="7" fgColor="004000" bgColor="FFFFFF" fontName="" fontStyle="2"/>
+            <WordsStyle name="KEYWORD4" styleID="8" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0"/>
+            <WordsStyle name="COMMENT" styleID="1" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0"/>
+            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="408080" bgColor="FFFFFF" fontName="" fontStyle="2"/>
+            <WordsStyle name="NUMBER" styleID="4" fgColor="808040" bgColor="FFFFFF" fontName="" fontStyle="0"/>
+            <WordsStyle name="OPERATOR" styleID="10" fgColor="808040" bgColor="FFFFFF" fontName="" fontStyle="0"/>
+            <WordsStyle name="DELIMINER1" styleID="14" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0"/>
+            <WordsStyle name="DELIMINER2" styleID="15" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0"/>
+            <WordsStyle name="DELIMINER3" styleID="16" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0"/>
+        </Styles>
+    </UserLang>
+    <UserLang name="Wavefront MTL" ext="mtl">
+        <Settings>
+            <Global caseIgnored="no"/>
+            <TreatAsSymbol comment="no" commentLine="no"/>
+            <Prefix words1="no" words2="no" words3="no" words4="no"/>
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Delimiters">000000</Keywords>
+            <Keywords name="Folder+"/>
+            <Keywords name="Folder-"/>
+            <Keywords name="Operators">- . /</Keywords>
+            <Keywords name="Comment">1 2 0#</Keywords>
+            <Keywords name="Words1">Ka Kd Ks illum Ns map_Kd tf d</Keywords>
+            <Keywords name="Words2">newmtl</Keywords>
+            <Keywords name="Words3"/>
+            <Keywords name="Words4"/>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" styleID="11" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0"/>
+            <WordsStyle name="FOLDEROPEN" styleID="12" fgColor="FF0000" bgColor="FFFFFF" fontName="" fontStyle="1"/>
+            <WordsStyle name="FOLDERCLOSE" styleID="13" fgColor="FF0000" bgColor="FFFFFF" fontName="" fontStyle="1"/>
+            <WordsStyle name="KEYWORD1" styleID="5" fgColor="000080" bgColor="FFFFFF" fontName="" fontStyle="1"/>
+            <WordsStyle name="KEYWORD2" styleID="6" fgColor="FF0000" bgColor="FFFFFF" fontName="" fontStyle="1"/>
+            <WordsStyle name="KEYWORD3" styleID="7" fgColor="400000" bgColor="FFFFFF" fontName="" fontStyle="2"/>
+            <WordsStyle name="KEYWORD4" styleID="8" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0"/>
+            <WordsStyle name="COMMENT" styleID="1" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0"/>
+            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="408080" bgColor="FFFFFF" fontName="" fontStyle="2"/>
+            <WordsStyle name="NUMBER" styleID="4" fgColor="808040" bgColor="FFFFFF" fontName="" fontStyle="0"/>
+            <WordsStyle name="OPERATOR" styleID="10" fgColor="808040" bgColor="FFFFFF" fontName="" fontStyle="0"/>
+            <WordsStyle name="DELIMINER1" styleID="14" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0"/>
+            <WordsStyle name="DELIMINER2" styleID="15" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0"/>
+            <WordsStyle name="DELIMINER3" styleID="16" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0"/>
+        </Styles>
+    </UserLang>
+</NotepadPlus>
